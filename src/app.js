@@ -8,7 +8,6 @@ return `${day} ${hours}:${minutes}`
 }
 
 function showTemperature(response) {
-    console.log(response);
 let temperatureElement = document.querySelector("#temperature");
 let cityElement = document.querySelector("#city");
 let descriptionElement = document.querySelector("#description");
