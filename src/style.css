@@ -58,13 +58,23 @@ width: 64px;
   line-height: 1;
 }
 
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
 .weather-temperature .units {
   font-size: 16px;
   position: relative;
   top: -34px;
 }
 
-#fahrenheit {
+#celcius-link {
+  text-decoration: none;
+}
+
+#fahrenheit-link {
   text-decoration: none;
 }
 
